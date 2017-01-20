@@ -1,0 +1,193 @@
+.root{
+    -fx-background-color: #383838;
+}
+.label{
+    -fx-text-fill:white;
+}
+.chart-legend .label
+{
+    -fx-text-fill: #383838;
+
+}
+.axis-label
+{
+    -fx-text-fill:white;
+}
+.axis
+{
+     -fx-font-size: 1em;
+    -fx-tick-label-fill: white;
+    -fx-font-family: Tohama;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+.chart-bar {
+   -fx-background-insets: 0,1,2;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+}
+.chart-title
+{
+    -fx-text-fill: #4682b4;
+    -fx-font-size: 0.5cm;
+}
+.chart-plot-background
+{
+    -fx-background-color: #e2ecfe;
+}
+.chart-vertical-grid-lines
+{
+    -fx-stroke: #3278fa;
+}
+.chart-horizontal-grid-lines
+{
+    -fx-stroke: #3278fa;
+}
+.chart-alternative-row-fill
+{
+    -fx-fill:#99bcfd;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+/*.chart-legend
+{
+    -fx-background-color: transparent;
+}*/
+.default-color0.chart-pie { -fx-pie-color: #ffd700; }
+.default-color1.chart-pie { -fx-pie-color: #ffa500; }
+.default-color2.chart-pie { -fx-pie-color: #860061; }
+.default-color3.chart-pie { -fx-pie-color: #adff2f; }
+.default-color4.chart-pie { -fx-pie-color: #ff5700; }
+
+.chart-pie
+{
+    -fx-text-fill:white;
+    -fx-animated: true;
+}
+.chart-pie-label {
+     -fx-fill: white;
+     -fx-font-size: 1em;
+ }
+
+.menu-bar .label
+{
+    -fx-text-fill: #383838;
+}
+.menu .label
+{
+    -fx-text-fill: #383838;
+}
+.menu-item .label
+{
+    -fx-text-fill: #383838;
+}
+.menu-button .label
+{
+    -fx-text-fill: #383838;
+}
+
+.button-image {
+    -fx-background-color: #383838;
+    -fx-background-radius: 100;
+}
+.label-back
+{
+    -fx-text-fill: white;
+
+}
+
+.separator .line {
+    -fx-border-color:  black;
+    -fx-border-width: 0.5;
+}
+
+.text-field
+{
+    -fx-background-radius: 100;
+}
+
+.button {
+    -fx-padding: 5 22 5 22;
+    -fx-border-color: #e2e2e2;
+   // -fx-border-width: 2;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #2a3a3a;
+}
+.button-image:hover
+{
+    -fx-background-color: transparent;
+}
+
+.button:pressed, .button:default:hover:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: #1d1d1d;
+}
+
+/*.button:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+
+
+
+
+
+
+
+.button:hover tall{
+    -fx-background-color: #3a3a3a;
+}
+
+.button:pressed, .button:default:hover:pressed tall{
+    -fx-background-color: white;
+    -fx-text-fill: #1d1d1d;
+}
+
+.button:focused tall{
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled tall{
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default tall{
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover tall{
+    -fx-background-color: derive(-fx-focus-color,30%);
+}*/

@@ -1,0 +1,31 @@
+.root{
+    -fx-background-color: #383838;
+}
+.label{
+    -fx-text-fill:white ;
+    -fx-font-weight: bold;
+}
+.button
+{
+    -fx-animated: true;
+    -fx-background-color: indianred;
+    -fx-background-radius: 100;
+}
+.button-back
+{
+    -fx-background-color: wheat;
+    -fx-background-radius: 100;
+}
+.button-back:hover
+{
+    background: seashell;
+}
+
+.text-field
+{
+    -fx-background-radius: 100;
+}
+.button-sign
+{
+    -fx-background-color:cadetblue;
+}

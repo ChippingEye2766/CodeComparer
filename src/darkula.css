@@ -1,0 +1,41 @@
+.root{
+    -fx-background-color: #383838;
+}
+.label{
+    -fx-text-fill:white ;
+   // -fx-font-weight: bold;
+}
+.button
+{
+    -fx-animated: true;
+    -fx-background-color: indianred;
+    -fx-background-radius: 100;
+}
+.button-back
+{
+    -fx-background-color: #383838;
+    -fx-background-radius: 100;
+}
+.button-back:hover
+{
+    background: seashell;
+}
+/*.menu-bar
+{
+    -fx-background-color: #383838;
+}
+
+.menu{
+    -fx-background-color: #383838;
+    //-fx-border-color: black;
+}
+
+.menu-item{
+ // -fx-background-color: #383838;
+    -fx-highlight-fill: blue;
+}
+*/
+.text-field
+{
+    -fx-background-radius: 100;
+}

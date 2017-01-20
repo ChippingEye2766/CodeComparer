@@ -1,0 +1,3 @@
+source ->http://www.tutorialspoint.com/java/io/java_io_datainputstream.htm
+The DataInputStream class lets an application read primitive Java data types from an underlying input stream in a machine-independent way.An application uses a data output stream to write data that can later be read by a data input stream.
+DataInputStream is not necessarily safe for multithreaded access. Thread safety is optional and is the responsibility of users of methods in this class.

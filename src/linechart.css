@@ -1,0 +1,23 @@
+.root{
+    -fx-background-color: #383838;
+}
+.label{
+    -fx-text-fill:white;
+}
+.chart-legend .label
+{
+    -fx-text-fill: #383838;
+
+}
+.axis-label
+{
+    -fx-text-fill:white;
+}
+.axis
+{
+    -fx-font-size: 1em;
+    -fx-tick-label-fill: white;
+    -fx-font-family: Tohama;
+    /*-fx-tick-length: 20;
+    -fx-minor-tick-length: 10;*/
+}

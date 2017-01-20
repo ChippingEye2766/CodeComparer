@@ -1,0 +1,9 @@
+.root
+{
+    -fx-background-color: blue;
+}
+.separator .line
+{
+    -fx-border-color:  black;
+    -fx-border-width: 0.5;
+}
